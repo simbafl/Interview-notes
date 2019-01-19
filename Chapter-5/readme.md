@@ -107,8 +107,8 @@ WHERE LOC_ID = 10 OR REGION = 'MELBOURNE'
 #### 22.用IN来替换OR 
 这是一条简单易记的规则，但是实际的执行效果还须检验。．　
 ```sql
-低效: SELECT…. FROM LOCATION WHERE LOC_ID = 10 OR LOC_ID = 20 OR LOC_ID = 30; 
-高效: SELECT… FROM LOCATION WHERE LOC_IN IN (10,20,30);
+低效: SELECT … FROM LOCATION WHERE LOC_ID = 10 OR LOC_ID = 20 OR LOC_ID = 30; 
+高效: SELECT … FROM LOCATION WHERE LOC_IN IN (10,20,30);
 ``` 
 #### 23.避免在索引列上使用IS NULL和IS NOT NULL 
 避免在索引中使用任何可以为空的列，MySQL将无法使用该索引。对于单列索引，如果列包含空值，索引中将不存在此记录。对于复合索引，如果每个列都为空，索引中同样不存在此记录。如果至少有一个列不为空，则记录存在于索引中。举例: 
