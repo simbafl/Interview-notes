@@ -1,11 +1,6 @@
 # Interview
 面试总结。
-
-### Chapter-1: python
-### Chapter-2: Big-Data
-### Chapter-3: Data-Science
-### Chapter-4: ML
-### Chapter-5: MySQL     
+    
 
 - :pencile2: [<font size=+1>python</font>](./Chapter-1)
 - :computer: [<font size=+1>大数据</font>](./Chapter-2)
