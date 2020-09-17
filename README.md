@@ -6,6 +6,7 @@
 - [Singleton实现](/Chapter-1/Singleton.py)
 - [python如何实现int函数](/Chapter-1/int函数.md)
 - [python对象的理解](/Chapter-1/对象的理解.md)
+- [python的迭代器和生成器]()
 - [__radd__方法](/Chapter-1/__radd__理解.md)
 - [导入机制](/Chapter-1/导入机制.md)
 - [python常用小技巧](/Chapter-1/python小技巧.md)
@@ -39,9 +40,6 @@
 21. [Python与设计模式--备忘录模式](/Chapter-1/Python与设计模式--备忘录模式.md)
 22. [Python与设计模式--状态模式](/Chapter-1/Python与设计模式--状态模式.md)
 
-    
-### 有关Spark和Hadoop
-[<font size=+1>大数据</font>](./Chapter-2)
 
-### MySQL优化
-[<font size=+1>MySQL</font>](./Chapter-5)
+
+
